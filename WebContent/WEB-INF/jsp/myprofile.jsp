@@ -90,7 +90,7 @@
 								<p>
 									<%
 									String photo = (String) session.getAttribute("personalPhoto");
-									BufferedImage bImage = ImageIO.read(new File("F:/Github/HappyLife/WebContent/WEB-INF/usrphotos/"+photo));
+									BufferedImage bImage = ImageIO.read(new File("D:/Eclipse2021/Github/HappyLife/WebContent/WEB-INF/usrphotos/"+photo));
 								    System.out.println("Photo " + photo);
 								    System.out.println("Buffered Image" + bImage);
 								    ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -99,7 +99,7 @@
 								    byte[] imageInByteArray = baos.toByteArray();
 								    baos.close();
 								    String b64 = javax.xml.bind.DatatypeConverter.printBase64Binary(imageInByteArray); 
-								    
+								    // this is me beko
 								    //String b64 = (String)session.getAttribute("64");
 									%>
 									<a id="mainfullimage" href="">
