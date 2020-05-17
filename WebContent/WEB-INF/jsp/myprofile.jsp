@@ -23,6 +23,9 @@
 	<!-- Side navigation menu -->
 	<link href="${pageContext.request.contextPath}/css/sidnavpush.css" rel="stylesheet">
 	
+	<!-- font awesome -->
+	<link href="${pageContext.request.contextPath}/fonts/css/font-awesome.min.css" rel="stylesheet">
+	
 	<!-- for responsive tabs -->
 	<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
 	<script src="${pageContext.request.contextPath}/js/bootstrap337.min.js"></script>
@@ -110,8 +113,7 @@
 									</a>
 								</p>
 								<p>
-									<a href="#createphotoprofilepage"><button>Change
-											Photo</button></a>
+									<a href="#createphotoprofilepage"><button>Change Photo</button></a>
 								</p>
 							</div>
 							<!-- <div><p><a href="#createphotoprofilepage"><button>Change Photo</button></a></p></div> -->
@@ -125,12 +127,12 @@
 						</div>
 						<div class="item4 col-xs-12 col-md-5">
 							<ul class="primary">
-								<li id="updateli"><a href="#prfprofile.php">Edit myprofile</a></li>
-								<li id="findexactli"><a href="#purematches.php">Find my exact </a></li>
-								<li id="findli"><a href="#bestmatch.php">Members I am looking for</a></li>
-								<li id="lookformeli"><a href="#lookingforme.php">Members looking for me</a></li>
-								<li id="myfavli"><a href="#favourites.php">My Favourites</a></li>
-								<li id="youtubeli"><a href="" target="_blank">Watch our Quick Start video</a></li>
+								<li id="updateli"><a href="#prfprofile.php"> <i class="icon-font"></i> Edit myprofile</a></li>
+								<li id="findexactli"><a href="#purematches.php"> <i class="icon-share-sign"></i> Find my exact </a></li>
+								<li id="findli"><a href="#bestmatch.php"> <i class="icon-user"></i> Members I am looking for</a></li>
+								<li id="lookformeli"><a href="#lookingforme.php"> <i class="icon-search"></i> Members looking for me</a></li>
+								<li id="myfavli"><a href="#favourites.php"> <i class="icon-heart-empty"></i> My Favourites</a></li>
+								<li id="youtubeli"><a href="" target="_blank"> <i class="icon-youtube-play"></i> Watch our Quick Start video</a></li>
 							</ul>
 						</div>
 					</div>

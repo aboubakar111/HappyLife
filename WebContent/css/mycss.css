@@ -191,3 +191,8 @@ p {
     -webkit-border-radius: 7px;
     border-radius: 7px;
 }
+
+/* Start search edit container */
+.first {
+	margin-top:-78;
+}

@@ -12,11 +12,12 @@
    	
    	<!-- specific -->
    	
-   	<link href="${pageContext.request.contextPath}/css/grid.css" rel="stylesheet">
-   	<link href="${pageContext.request.contextPath}/css/profile.css" rel="stylesheet">
-   	
    	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap337.min.css">
+ 	
+ 	<link href="${pageContext.request.contextPath}/css/grid.css" rel="stylesheet">
+	<link href="${pageContext.request.contextPath}/css/profile.css" rel="stylesheet">
+	
  	
  	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/mystyles.css">
    	
@@ -43,7 +44,6 @@
 		</nav>
 	</header>
 	
-	
 	<hr>
 	<div id="mySidenav" class="sidenav">
 		<a href="#">Inbox</a>
@@ -56,7 +56,7 @@
 	<br>
 		
 	<br><br>
-		<div class="container">
+		<div class="container overrides">
 			<ul class="nav nav-tabs">
 	    		<li><a href="/HappyLife/myprofile">Home</a></li>
 	    		<li><a href="/HappyLife/pinfo">My Profile</a></li>

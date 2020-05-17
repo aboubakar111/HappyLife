@@ -38,7 +38,7 @@ public class SendMessageServlet extends HttpServlet {
 		String messageContent = request.getParameter("message");
 		message.setSenderId(sessionUser.getId());
 		message.setRecipientId(candidate.getId());
-		message.setMessage(messageContent);
+		message.setMsgContent(messageContent);
 		message.setTime(timestamp);
 		
 		try {

@@ -1,7 +1,3 @@
-
-
-
-
 .updateProfile>li>a{
 	display: block;
     padding: 7px 5px;
@@ -12,4 +8,15 @@
     text-shadow: 1px 1px 1px #fff;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
+}
+
+.item4 .primary li {
+	border-top: 1px solid #201414;
+	border-bottom: 1px solid #1a1313;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.item4 .primary li #updateli {
+	background:url(../ico/note-edit.png) no-repeat center left);
 }

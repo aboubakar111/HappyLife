@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class DatabaseConnectivity {
 	static Connection conn = null;;
 	
-	static String url = "jdbc:mysql://localhost:3306/";
+	static String url = "jdbc:mysql://127.0.0.1:3306/";
 	static String db_name = "spring";
 	static String username = "amgo85";
 	static String password = "1234";

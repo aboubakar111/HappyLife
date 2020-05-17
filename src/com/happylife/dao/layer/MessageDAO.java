@@ -11,4 +11,5 @@ public interface MessageDAO {
 	//public String doSendMessageHibernate(Messages message) throws MessageDAOException;
 	public List<Messages> doCheckInboxForUnReadMsgs(User user) throws MessageDAOException;
 	//public List<Messages> doCheckInboxForUnReadMsgsHibernate(User user) throws MessageDAOException;
+	public List<Messages> getAllInboxMsgs(User sessionUser)throws MessageDAOException;
 }

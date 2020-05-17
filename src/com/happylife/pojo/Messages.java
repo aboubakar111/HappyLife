@@ -72,11 +72,11 @@ public class Messages {
 		this.recipientId = id;
 	}
 	
-	public String getMessage() {
+	public String getMsgContent() {
 		return msg;
 	}
 
-	public void setMessage(String message) {
+	public void setMsgContent(String message) {
 		this.msg = message;
 	}
 	

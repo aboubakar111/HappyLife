@@ -1,3 +1,9 @@
+/* Start container search Edit*/
 #inputCountry{
 	height: 34px;
+}
+
+/* Start search edit container */
+.overrides  {
+	margin-top:-101px;
 }
