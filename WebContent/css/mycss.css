@@ -196,3 +196,12 @@ p {
 .first {
 	margin-top:-78;
 }
+
+/* Start myfavourites */
+.left-column {
+	float:left;
+	width:650px;
+	padding:20px;
+	background-color:#fff;
+	-webkit-border-radius: 10px;
+}

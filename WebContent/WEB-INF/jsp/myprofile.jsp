@@ -131,7 +131,7 @@
 								<li id="findexactli"><a href="#purematches.php"> <i class="icon-share-sign"></i> Find my exact </a></li>
 								<li id="findli"><a href="#bestmatch.php"> <i class="icon-user"></i> Members I am looking for</a></li>
 								<li id="lookformeli"><a href="#lookingforme.php"> <i class="icon-search"></i> Members looking for me</a></li>
-								<li id="myfavli"><a href="#favourites.php"> <i class="icon-heart-empty"></i> My Favourites</a></li>
+								<li id="myfavli"><a href="${pageContext.request.contextPath}/favourites.jsp"> <i class="icon-heart-empty"></i> My Favourites</a></li>
 								<li id="youtubeli"><a href="" target="_blank"> <i class="icon-youtube-play"></i> Watch our Quick Start video</a></li>
 							</ul>
 						</div>
