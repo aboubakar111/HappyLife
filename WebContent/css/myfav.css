@@ -8,3 +8,19 @@ span.overrides {
 .moveleft {
 	margin-left:11px;
 }
+
+
+.check_div {
+    display: inline-block;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.check_div label {
+    position: relative;
+    display: inline-block;
+    width: 152px;
+    height: 30px;
+    padding: 0px 5px 0px 30px;
+    text-align: right;
+}
